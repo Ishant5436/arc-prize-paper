@@ -1,0 +1,16 @@
+{
+  "id": "rainycloudss/arc-prize-2026-paper-companion",
+  "title": "ARC Prize 2026 Paper Companion",
+  "code_file": "arc_prize_paper_companion.ipynb",
+  "language": "python",
+  "kernel_type": "notebook",
+  "is_private": false,
+  "enable_gpu": false,
+  "enable_tpu": false,
+  "enable_internet": true,
+  "dataset_sources": [],
+  "competition_sources": [
+    "arc-prize-2026-arc-agi-3"
+  ],
+  "kernel_sources": []
+}
