@@ -1,0 +1,11 @@
+ref,fileName,date,description,status,publicScore,privateScore
+57198437,submission.parquet,2026-10-15 00:01:05.990000,v1 envelope re-run,SubmissionStatus.COMPLETE,24.54,
+57159612,submission.parquet,2026-10-14 00:01:05.857000,v1 envelope re-run,SubmissionStatus.COMPLETE,27.08,
+57126448,submission.parquet,2026-10-13 01:41:39.607000,Kernel v15: Clean Native Sandbox + 0.90 VRAM OOM Shield + 120 Streams,SubmissionStatus.COMPLETE,14.37,
+57088385,submission.parquet,2026-10-12 00:01:31.747000,Kernel v13: Clean Symbolic Engine V2 Sandbox Integration,SubmissionStatus.COMPLETE,0.00,
+57059778,submission.parquet,2026-10-11 02:35:08.897000,"ARC-AGI-3 v7: SGLang concurrency=10, spatial HUD masking, 1200s calibrated horizon",SubmissionStatus.COMPLETE,7.72,
+57028832,submission.parquet,2026-10-10 02:51:02.627000,"ARC-AGI-3 v6: SGLang 120 continuous batching streams, 532m envelope on RTX Pro 6000",SubmissionStatus.COMPLETE,25.05,
+57011082,submission.parquet,2026-10-09 13:55:07.853000,"ARC-AGI-3 v4: SGLang concurrency=10, calibrated 240s envelope",SubmissionStatus.COMPLETE,1.00,
+56898814,submission.parquet,2026-10-07 03:22:56.883000,v1 envelope re-run,SubmissionStatus.COMPLETE,26.94,
+56870444,submission.parquet,2026-10-06 04:42:17.620000,"ARC-AGI-3 v3: SGLang concurrency=10, 1200s horizon, HUD spatial masking (39.32 benchmark)",SubmissionStatus.COMPLETE,6.52,
+56842502,submission.parquet,2026-10-05 04:41:04.577000,Milestone 2 solution,SubmissionStatus.COMPLETE,27.85,
