@@ -1,0 +1,53 @@
+[{"stream_name":"stderr","time":11.602670393,"data":"0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":11.602745073,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":11.60275132,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":11.602754807,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stderr","time":12.563275248,"data":"0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":12.563316392,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":12.563322854,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":12.563327349,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stdout","time":15.613068044,"data":"     ref                             date   status  publicScore                                                                                                   description\n"}
+,{"stream_name":"stdout","time":15.613134027,"data":"57575277 2026-10-24 00:01:04.460000+00:00    ERROR          NaN                                                                      D-prime fork v3 retry after system error\n"}
+,{"stream_name":"stdout","time":15.613141453,"data":"57541607 2026-10-23 00:01:05.220000+00:00 COMPLETE        14.40                                             milestone-2-solution v19 (fallback after D-prime v3 scored ERROR)\n"}
+,{"stream_name":"stdout","time":15.613147576,"data":"57501028 2026-10-22 00:01:06.247000+00:00    ERROR          NaN                                                  D-prime fork v3: early benchmark release + gateway keepalive\n"}
+,{"stream_name":"stdout","time":15.613152934,"data":"57456808 2026-10-21 00:01:05.950000+00:00 COMPLETE         0.00                                                          fork dennis6886/arc3-d-prime-public-base, unmodified\n"}
+,{"stream_name":"stdout","time":15.613167779,"data":"57413236 2026-10-20 00:01:05.047000+00:00 COMPLETE         0.00                                                       v1 envelope re-run (27.08% / 27.85% certified baseline)\n"}
+,{"stream_name":"stdout","time":15.613172392,"data":"57372927 2026-10-19 00:01:06.167000+00:00 COMPLETE         3.79                                 Kernel v23: 1200s Runtime Budget Restored + Duck REPL Multi-Level (SGLang 32)\n"}
+,{"stream_name":"stdout","time":15.613177146,"data":"57329829 2026-10-18 00:01:05.637000+00:00 COMPLETE        23.43 Kernel v19: Authentic Parquet Serializer + Leap 68 Harmonized Serving (41.78% Benchmark, 100% sb26, 71% tr87)\n"}
+,{"stream_name":"stdout","time":15.613181719,"data":"57287079 2026-10-17 00:01:03.930000+00:00 COMPLETE         0.00                          Kernel v18: Leap 68 Harmonized 32-Batch SGLang + 32 Concurrency + 180s Timeout Floor\n"}
+,{"stream_name":"stdout","time":15.61318652,"data":"57247270 2026-10-16 00:01:03.517000+00:00 COMPLETE        14.49            Kernel v16: 0.96 VRAM Allocator + 14-Stream Calibrated Concurrency (35.41 Benchmark, 2 Games 100%)\n"}
+,{"stream_name":"stdout","time":15.613191669999999,"data":"57198437 2026-10-15 00:01:05.990000+00:00 COMPLETE        24.54                                                                                            v1 envelope re-run\n"}
+,{"stream_name":"stdout","time":15.613198736,"data":"57159612 2026-10-14 00:01:05.857000+00:00 COMPLETE        27.08                                                                                            v1 envelope re-run\n"}
+,{"stream_name":"stdout","time":15.613203681,"data":"57126448 2026-10-13 01:41:39.607000+00:00 COMPLETE        14.37                                         Kernel v15: Clean Native Sandbox + 0.90 VRAM OOM Shield + 120 Streams\n"}
+,{"stream_name":"stdout","time":15.613226511,"data":"57088385 2026-10-12 00:01:31.747000+00:00 COMPLETE         0.00                                                      Kernel v13: Clean Symbolic Engine V2 Sandbox Integration\n"}
+,{"stream_name":"stdout","time":15.613232236,"data":"57059778 2026-10-11 02:35:08.897000+00:00 COMPLETE         7.72                            ARC-AGI-3 v7: SGLang concurrency=10, spatial HUD masking, 1200s calibrated horizon\n"}
+,{"stream_name":"stdout","time":15.613237219,"data":"57028832 2026-10-10 02:51:02.627000+00:00 COMPLETE        25.05                           ARC-AGI-3 v6: SGLang 120 continuous batching streams, 532m envelope on RTX Pro 6000\n"}
+,{"stream_name":"stdout","time":15.613241907,"data":"57011082 2026-10-09 13:55:07.853000+00:00 COMPLETE         1.00                                                 ARC-AGI-3 v4: SGLang concurrency=10, calibrated 240s envelope\n"}
+,{"stream_name":"stdout","time":15.613247079,"data":"56898814 2026-10-07 03:22:56.883000+00:00 COMPLETE        26.94                                                                                            v1 envelope re-run\n"}
+,{"stream_name":"stdout","time":15.613251941,"data":"56870444 2026-10-06 04:42:17.620000+00:00 COMPLETE         6.52                     ARC-AGI-3 v3: SGLang concurrency=10, 1200s horizon, HUD spatial masking (39.32 benchmark)\n"}
+,{"stream_name":"stdout","time":15.613257332,"data":"56842502 2026-10-05 04:41:04.577000+00:00 COMPLETE        27.85                                                                                          Milestone 2 solution\n"}
+,{"stream_name":"stdout","time":16.129846826,"data":"2 ERROR submissions excluded from score chart, not assigned score zero.\n"}
+,{"stream_name":"stdout","time":16.153965092,"data":"{\n"}
+,{"stream_name":"stdout","time":16.154010328,"data":"  \"snapshot_sha256\": \"fc2c92f155f7903d3f74ed8ce5cbf829d09900fab986d3cde103197c6e2bc7fd\",\n"}
+,{"stream_name":"stdout","time":16.154016892,"data":"  \"recorded_submissions\": 19,\n"}
+,{"stream_name":"stdout","time":16.154021989,"data":"  \"scored_submissions\": 17,\n"}
+,{"stream_name":"stdout","time":16.154026544,"data":"  \"scoring_errors\": 2,\n"}
+,{"stream_name":"stdout","time":16.154031254,"data":"  \"best_public_score\": 27.85,\n"}
+,{"stream_name":"stdout","time":16.154036074,"data":"  \"best_submission\": \"56842502\",\n"}
+,{"stream_name":"stdout","time":16.154040922,"data":"  \"error_references\": [\n"}
+,{"stream_name":"stdout","time":16.154045448,"data":"    \"57575277\",\n"}
+,{"stream_name":"stdout","time":16.154050024,"data":"    \"57501028\"\n"}
+,{"stream_name":"stdout","time":16.154054715,"data":"  ],\n"}
+,{"stream_name":"stdout","time":16.154059543,"data":"  \"controlled_ablation\": false,\n"}
+,{"stream_name":"stdout","time":16.154064849,"data":"  \"binary_identity_verified\": false,\n"}
+,{"stream_name":"stdout","time":16.154070115,"data":"  \"new_solver_evaluation\": false\n"}
+,{"stream_name":"stdout","time":16.154075119,"data":"}\n"}
+,{"stream_name":"stderr","time":19.825807324,"data":"/usr/local/lib/python3.13/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":19.825858326,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":20.057052009,"data":"/usr/local/lib/python3.13/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":20.057108895,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":21.068208135,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to notebook\n"}
+,{"stream_name":"stderr","time":21.170021242,"data":"[NbConvertApp] Writing 15262 bytes to __notebook__.ipynb\n"}
+,{"stream_name":"stderr","time":24.882118464,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to html\n"}
+,{"stream_name":"stderr","time":25.6384994,"data":"[NbConvertApp] Writing 298085 bytes to __results__.html\n"}
+]
