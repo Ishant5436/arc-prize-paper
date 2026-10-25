@@ -43,6 +43,16 @@ We have no verified latency measurements, utilization traces, paired per-game ou
 
 Universality beyond these submissions is untested. Public leaderboard performance may differ from private evaluation, and repeated public evaluation can influence subsequent choices. Historical results reported by public authors have not been independently reproduced here and are excluded from our numerical dataset.
 
+## Engineering failure modes in agentic game solving
+
+Beyond leaderboard metrics, empirical execution of tool-based game-solving agents reveals several silent failure modes that can corrupt experimental evaluation if unmonitored:
+
+1. **Storage prefetch and cold-start timeouts:** When serving large models distributed across multiple tensor checkpoint shards, disk prefetch and tensor deserialization into accelerator memory can take upwards of twenty minutes under containerized cold-storage conditions. If the orchestration harness enforces an aggressive startup timeout before serving endpoints reach full readiness, benchmark requests fail prematurely with connection errors, producing total submission failure unrelated to model reasoning capabilities.
+
+2. **Introspection loops and inaction deadlocks:** When coding agents operate with unconstrained tool turns per step and receive passive prompt feedback assuring them that purely inspecting state without actions is acceptable, agents frequently stall in prolonged inaction cycles. Models generate repetitive state queries, diff evaluations, and exploratory Python scripts across dozens of turns while executing zero real environment actions. Bounding tool iterations and replacing permissive phrasing with explicit action directives is necessary to force game progress.
+
+3. **Admission gate decoupling from batch serving:** In asynchronous architectures where an inference backend handles concurrent request queues, local admission gates in the solver must be harmonized with server batch limits. An upstream gate admitting fewer concurrent streams than the serving engine can decode leaves accelerator memory underutilized, reducing operational token throughput during constrained evaluation envelopes.
+
 ## Reproducibility and next experiments
 
 Before another configuration comparison, archive the exact submitted notebook version, source and model versions, environment, generated artifact and SHA-256 hashes. Match each submission identifier to that manifest, including the baseline-labelled reruns. Record per-game outcomes, scoring definitions, seeds, elapsed time and failure logs without exposing restricted competition data.
